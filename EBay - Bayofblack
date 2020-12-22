@@ -160,7 +160,8 @@ div.footer, a.guidance-text-module__list-item__text-wrapper,
 .buttons, .viewport,
 .overview li a:hover,
 u,  .sifExp .expHeader,
-.x-overlay-aspect.active, .TS_tutorial
+.x-overlay-aspect.active, .TS_tutorial,
+.carousel__viewport li a
   {
     background-color: #00008B !important;
   }
@@ -237,7 +238,7 @@ u,  .sifExp .expHeader,
 .placebid_layer_powerbid_wrapper,
 .app-bidlayer-main-wrapper .app-bidlayer-bidsection-wrapper .placebid_layer_seperator .circle span,
 .app-bidlayer-main-wrapper .app-bidlayer-bidsection-wrapper .placebid_layer_bid .inpWrap,
-#TopPanel, #Body, .vi-ds6 #Body, .vi-ds6 #Body *
+#TopPanel, #Body, .vi-ds6 #Body, .container_wrapper, .vi-swc-wrapper
   {
     background-color: #000000 !important;
   }
@@ -653,7 +654,7 @@ ul.l-adv li a:hover
   }
 
   .msgPad, .msgPad a, .msgPad span span,
-.alert-info
+.alert-info, .msgPad 
   {
     background: red !important;
     color: #FFFFFF !important;
@@ -740,6 +741,7 @@ ul.l-adv li a:hover
     color: #FFF !important;
     background: #000 !important;
   }
+
 }
 
 @-moz-document domain("mozo.com.au") {
